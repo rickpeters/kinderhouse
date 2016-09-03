@@ -15,12 +15,8 @@ Nog steeds biedt de Stichting aan kinderen met heel verschillende achtergronden,
 * conflictgebieden
 * scholen uitwisseling
 
-![anbi logo](/media/anbi.jpg)
+![ons huis](/media/voorkant_huis.jpg)
 
-![ons huis](/media/voorkant huis.jpg)
-
-[<img src="/media/yt.bmp" border="0" width="82" height="33" />](http://www.youtube.com/user/kinderhouseNI)
-
-[facebook](https://www.facebook.com/pages/Stichting-Kinder-House-Noord-Ierland/175394595856392?ref=ts&fref=ts)
+![anbi logo](/media/anbi.jpg) [<img src="/media/yt.bmp" border="0" width="82" height="33" />](http://www.youtube.com/user/kinderhouseNI) [facebook](https://www.facebook.com/pages/Stichting-Kinder-House-Noord-Ierland/175394595856392?ref=ts&fref=ts)
 
 **RSIN nr  815397987**
