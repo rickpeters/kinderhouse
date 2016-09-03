@@ -12,7 +12,7 @@ Dat kan met:
 * het aanmelden voor vrijwilligerswerk
 * organiseren van inzamelingsactiviteiten (sponsorloop, diner)
 
-![anbi logo](/mdeia/anbi.jpg)
+![anbi logo](/media/anbi.jpg)
 
 *Stichting kinderhouse staat bij de belastingdienst geregistreerd als een Algemeen Nut Bevorderende Instelling (Anbi). Giften zijn hiermee fiscaal aftrekbaar geworden.*
 
