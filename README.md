@@ -46,3 +46,16 @@ Complicerende factor is dat *www.kinderhouse.nl* een redirect is (presence domai
 * Het bestaande *A-record* voor het full domain (apex), *kinderhouse.eu* ingesteld naar *netlify* (104.198.14.52)
 
 www.kinderhouse.nl lijkt inmiddels te werken...
+
+### DNS koppeling mijndomein naar Netlify
+
+* In mijndomein dashboard bij DNS beheer:
+* Een *CNAME* record aangemaakt voor *www.kinderhouse.nl* dat wijst naar *kinderhouse.netlify.com*
+* Het bestaande *A-record* voor *www.kinderhouse.nl* verwijderd (wees naar de DNS server van mijndomein zelf)
+
+Dat zou genoeg moeten zijn. Nu (13-1-2017) de verhuizing geactiveerd met de juiste autorisatiecode
+
+Als dat werkt dan kunnen de oude abonenmenten alsnog per direct worden opgezegd.
+
+Het commando `dig www.kinderhouse.nl` laat zien hoe de doorverwijzing werkt.
+Nog geen *dnssec* geactiveerd.
