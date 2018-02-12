@@ -2,7 +2,7 @@ site_name: Stichting Kinderhouse
 site_description: Website van Stichting Kinderhouse Nederland
 site_author: Stichting Kinderhouse
 copyright: "&copy; Stichting Kinderhouse"
-theme: yeti
+theme: cosmo
 #theme: null
 #theme_dir: 'kh_theme'
 
