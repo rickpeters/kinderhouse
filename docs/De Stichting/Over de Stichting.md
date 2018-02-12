@@ -91,7 +91,7 @@ Door op onderstaande link te klikken kunt u onze statuten downloaden.
 
 Hier kunt u onze financiële verantwoording downloaden:
 
-[Financieel jaarverslag 2016](/media/pdf/jaarrekening_kinderhouse_2016.pdf)
+[Financieel jaarverslag 2017](/media/pdf/financieel_jaarrapport_2017.pdf)
 
 **RSIN nr. 815397987**
 
