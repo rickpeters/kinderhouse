@@ -4,5 +4,5 @@ site_author: Stichting Kinderhouse
 copyright: "&copy; Stichting Kinderhouse"
 #theme: yeti
 #theme: null
-theme_dir: mkdocs_bootswatch/yeti
+theme_dir: kh_theme
 
