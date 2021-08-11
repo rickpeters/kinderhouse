@@ -91,8 +91,8 @@ Door op onderstaande link te klikken kunt u onze statuten downloaden.
 
 Hier kunt u onze financiële verantwoording downloaden:
 
-[Financieel jaarverslag 2021](/media/pdf/financieel_jaarrapport_2021.pdf)
-[Financieel jaarverslag 2020](/media/pdf/financieel_jaarrapport_2020.pdf)
+* [Financieel jaarverslag 2021](/media/pdf/financieel_jaarrapport_2021.pdf)
+* [Financieel jaarverslag 2020](/media/pdf/financieel_jaarrapport_2020.pdf)
 
 **RSIN nr. 815397987**
 
