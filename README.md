@@ -20,42 +20,29 @@ De login van Netlify is gekoppeld aan mijn github account en aan de code reposit
 
 * [Beheerportaal Netlify](https://app.netlify.com)
 
-## Byte internetprovider
+Default python runtime is nog 2.7 maar support wordt minder. MkDocs werkt met een nieuwere. Conform info in [dit artikel](https://www.netlify.com/blog/2016/10/18/how-our-build-bots-build-sites/) een `/runtime.txt` geplaats met verwijzing naar Python 3.7.
 
-Stichting Kinderhouse heeft nu een (relatief duur) webhosting product bij de nederlandse provider **Byte**.
+## Domeinregistratie
+
+Stichting Kinderhouse had een (relatief duur) webhosting product bij de nederlandse provider **Byte**.
 
 * [Beheerportaal Byte](https://service.byte.nl)
 
-Dit webhosting abonnement kan worden afgebouwd omdat uitsluitend de **domeinnaamregistratie* van belang is. De domeinnaamregistratie kan evt. worden overgebracht naar een nieuwe hostingprovider (bijv. www.mijndomein.nl).
+Dit webhosting abonnement is inmiddels afgebouwd omdat uitsluitend de **domeinnaamregistratie* van belang was. De domeinnaamregistratie is overgebracht naar [MijnDomein](mijndomein.nl) en wordt beheerd door Rick.
 
-Voor nu gaan we gebruik maken van de **Netlify** optie om een externe DNS provider te koppelen en gaan we in het **Byte** beheerportaal instellen dat de DNS entry voor www.kinderhouse.nl doorgezet moet worden naar netlify.
+We maken gebruik van de **Netlify** optie om een externe DNS provider te koppelen. Bij *MijnDomein* wordt de domeinnaam kinderhouse.nl en de DNS entry voor www.kinderhouse.nl doorgezet naar Netlify.
 
-### DNS koppeling Byte naar Netlify
-
-Hiervoor zijn de instructies van Netlify gevolgd op [Netlify Custom Domains](https://www.netlify.com/docs/custom-domains/).
-
-Complicerende factor is dat *www.kinderhouse.nl* een redirect is (presence domain) naar *www.kinderhouse.eu*. Het is de vraag of DNS aanpassing in *www.kinderhouse.nl* zin heeft.
-
-* In *Netlify* dashboard custom DNS domain ingesteld op *www.kinderhouse.nl*
-* De *Name* aangepast naar *kinderhouse* zodat het domein *kinderhouse.netlify.com* bestaat
-* Een *CNAME* record aangemaakt voor *www.kinderhouse.nl* dat wijst naar *kinderhouse.netlify.com*
-* Het bestaande *A-record* voor *www.kinderhouse.nl* verwijderd (wees naar de DNS server van byte zelf)
-* Een *CNAME* record aangemaakt voor *www.kinderhouse.eu* dat wijst naar *kinderhouse.netlify.com*
-* Het bestaande *A-record* voor *www.kinderhouse.eu* verwijderd (wees naar de DNS server van byte zelf, 82.94.214.144)
-* Het bestaande *A-record* voor **.kinderhouse.eu* verwijderd
-* Het bestaande *A-record* voor het full domain (apex), *kinderhouse.eu* ingesteld naar *netlify* (104.198.14.52)
-
-www.kinderhouse.nl lijkt inmiddels te werken...
+De *www.kinderhouse.eu* domeinnaam is inmiddels opgeruimd. Er is een eenvoudige doorverwijzing gemaakt vanaf *mijndomein* naar Netlify
 
 ### DNS koppeling mijndomein naar Netlify
+
+Hiervoor zijn de instructies van Netlify gevolgd op [Netlify Custom Domains](https://www.netlify.com/docs/custom-domains/).
 
 * In mijndomein dashboard bij DNS beheer:
 * Een *CNAME* record aangemaakt voor *www.kinderhouse.nl* dat wijst naar *kinderhouse.netlify.com*
 * Het bestaande *A-record* voor *www.kinderhouse.nl* verwijderd (wees naar de DNS server van mijndomein zelf)
 
-Dat zou genoeg moeten zijn. Nu (13-1-2017) de verhuizing geactiveerd met de juiste autorisatiecode
-
-Als dat werkt dan kunnen de oude abonenmenten alsnog per direct worden opgezegd.
+Dat is genoeg. Nu (13-1-2017) de verhuizing geactiveerd met de juiste autorisatiecode
 
 Het commando `dig www.kinderhouse.nl` laat zien hoe de doorverwijzing werkt.
 Nog geen *dnssec* geactiveerd.
