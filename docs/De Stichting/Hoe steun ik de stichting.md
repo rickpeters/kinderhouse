@@ -18,7 +18,7 @@ Dat kan met:
 
 Hebben wij u geïnspireerd en wilt u donateur of vrijwilliger worden?
 
-Neemt u dan contact op met de heer Adri Verweij. Tel: (030) 656 56 33 of 06 531 426 14. U kunt ook contactopnemen via e-mail.
+Neemt u dan contact op met mevrouw Truus Peters. Tel: 06 22 95 07 88. U kunt ook contact opnemen via e-mail.
 Wij informeren onze donateurs een keer per jaar over de (financiële) ontwikkelingen en het werk van de stichting.
 
 Giften kunnen gestort worden op Rabobank tnv Stichting Kinderhouse Noord Ierland *NL12 RABO 0384 3815 45* te Hummelo

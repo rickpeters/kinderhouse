@@ -44,7 +44,7 @@ Het bestuur van de Nederlandse Stichting Kinderhouse bestaat op dit ogenblik uit
                 <img src="/media/bestuur/truusweb2008.jpg" border="0" alt="truusweb2008" width="200" height="243" />
             </td>
             <td>
-                Truus Peters-Hogenkamp - Hall<br />algemene zaken en fondswerving
+                Truus Peters-Hogenkamp - Hall<br />secretariaat en fondswerving
             </td>
         </tr>
         <tr>
@@ -53,14 +53,6 @@ Het bestuur van de Nederlandse Stichting Kinderhouse bestaat op dit ogenblik uit
             </td>
             <td>
                 Toos Brinksma - Koning, Hummelo<br />penningmeester
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="/media/bestuur/adri-2008web.jpg" border="0" alt="adri-2008web" width="200" height="238" />
-            </td>
-            <td>
-                Adri Verwij, Odijk<br />secretariaat
             </td>
         </tr>
         <tr>
