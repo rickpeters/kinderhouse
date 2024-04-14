@@ -83,8 +83,8 @@ Door op onderstaande link te klikken kunt u onze statuten downloaden.
 
 Hier kunt u onze financiële verantwoording downloaden:
 
+* [Financieel jaarverslag 2023](/media/pdf/financieel_jaarrapport_2023.pdf)
 * [Financieel jaarverslag 2022](/media/pdf/financieel_jaarrapport_2022.pdf)
-* [Financieel jaarverslag 2021](/media/pdf/financieel_jaarrapport_2021.pdf)
 
 **RSIN nr. 815397987**
 
